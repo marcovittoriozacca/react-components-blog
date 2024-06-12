@@ -1,15 +1,15 @@
 import style from "./Card.module.css";
 
-const Card = () => {
+const Card = ({post}) => {
     return (
         <>
             <div className={style.card}>
                 <figure>
-                    <img src="https://picsum.photos/seed/picsum/500/300" alt="template-image" />
+                    <img src={ post.image } alt="template-image" />
                 </figure>
                 <div className={style.cardBody}>
-                    <h3>Titolo del post</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum deserunt blanditiis sapiente expedita similique dolorem, eum tempore repellat delectus. Qui, nam ad esse id, enim error veritatis soluta sequi ut, repellat accusantium laborum incidunt deleniti voluptate fugiat. Velit, molestias iste!</p>
+                    <h3>{ post.title }</h3>
+                    <p>{ post.content }</p>
                     <button>LEGGI DI PIU'</button>
                 </div>
 
