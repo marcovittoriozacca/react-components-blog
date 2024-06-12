@@ -1,0 +1,12 @@
+.footerStyle{
+    background: #333333;
+    position: fixed;
+    bottom: 0;
+    padding: 2rem;
+}
+
+.footerStyle p{
+    color: white;
+    text-align: center;
+}
+
