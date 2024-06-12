@@ -1,6 +1,7 @@
 .footerStyle{
     background: #333333;
     position: fixed;
+    width: 100%;
     bottom: 0;
     padding: 2rem;
 }
