@@ -4,7 +4,7 @@ Step per creare il progetto:
 - Installiamo le dipendenze npm install
 - Lanciamo il server di sviluppo npm run dev
 - Creiamo una cartella components nella quale inseriremo i nostri componenti
-- 
+
 ## BONUS:
 
 Invece di utilizzare un unico file index.css separiamo lo style utilizzando i CSS Modules
