@@ -15,7 +15,7 @@
 }
 
 .cardBody{
-    padding: .5rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: start;

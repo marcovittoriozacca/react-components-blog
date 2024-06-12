@@ -1,3 +1,4 @@
+import Button from "./Button";
 import style from "./Card.module.css";
 
 const Card = ({post}) => {
@@ -10,7 +11,9 @@ const Card = ({post}) => {
                 <div className={style.cardBody}>
                     <h3>{ post.title }</h3>
                     <p>{ post.content }</p>
-                    <button>LEGGI DI PIU'</button>
+                    <Button
+                        link={post.link}
+                    />
                 </div>
 
             </div>
